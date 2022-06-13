@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+#bacc {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99999;
+    background-color: #FFF;
+}
+
+#lod2 {
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -33px;
+    margin-left: -33px;
+    /*z-index  : 80;*/
+}
+
+.new_boder {
+    display: flex;
+    justify-content: center;
+    width: 1150px;
+    margin: 30px auto 60px;
+}
+
+.new_boder .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new_boder a {
+    width: 234px;
+    margin: auto;
+    display: flex;
+}
+
+a.animation_btn {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    margin: 0;
+    transition: all 0.3s;
+}
+
+a.animation_btn:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+    z-index: 1;
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.5));
+}
+
+a.animation_btn:hover img {
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+.black {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    transition: all 0.2s ease;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+
+a.animation_btn:hover .black {
+    background-color: rgba(255, 140, 0, 0.8);
+    transition: all 0.5s ease;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.new_boder .flex {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.new_boder .flex p {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    color: #FFF;
+}
+
+.new_boder a .flex p:before {
+    content: "";
+    width: 200px;
+    height: 60px;
+    background: url(../img/school.svg) center no-repeat;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.new_boder a:hover .flex p:before {
+    content: "";
+    transform: scale(2);
+    background: url(../img/school_color.svg) center no-repeat;
+    margin-bottom: 40px;
+}
+
+.new_boder a.topics .flex p:before {
+    content: "";
+    width: 200px;
+    height: 60px;
+    background: url(../img/topics.svg) center no-repeat;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.new_boder a.topics:hover .flex p:before {
+    background: url(../img/topics_color.svg) center no-repeat;
+    margin-bottom: 40px;
+}
+
+a.animation_btn.topics:hover .black {
+    background-color: rgba(125, 220, 108, 0.8);
+    transition: all 0.3s ease;
+    bottom: 0;
+}
+
+.new_boder .enterprise .flex p::before {
+    content: "";
+    width: 200px;
+    height: 60px;
+    background: url(../img/enterprise.svg) center/contain no-repeat;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.new_boder .enterprise:hover .flex p::before {
+    background: url(../img/enterprise_color.svg) center/contain no-repeat;
+    margin-bottom: 40px;
+}
+
+a.animation_btn.enterprise:hover .black {
+    background-color: rgba(11, 103, 155, 0.8);
+    transition: all 0.3s ease;
+    bottom: 0;
+}
+
+.new_boder a.society .flex p::before {
+    content: "";
+    width: 200px;
+    height: 60px;
+    background: url(../img/society.svg) center/contain no-repeat;
+    margin-bottom: 20px;
+}
+
+.new_boder a.society:hover .flex p::before {
+    background: url(../img/society_color.svg) center/contain no-repeat;
+    margin-bottom: 40px;
+}
+
+a.animation_btn.society:hover .black {
+    background-color: rgba(255, 204, 0, 0.8);
+    bottom: 0;
+}
+
+.new_boder .global .flex p::before {
+    content: "";
+    width: 200px;
+    height: 60px;
+    background: url(../img/handshake.svg) center/contain no-repeat;
+    margin-bottom: 20px;
+}
+
+.new_boder a.global:hover .flex p::before {
+    background: url(../img/handshake_color.svg) center/contain no-repeat;
+    margin-bottom: 40px;
+}
+
+a.animation_btn.global:hover .black {
+    background-color: rgba(198, 23, 23, 0.8);
+    bottom: 0;
+}
+
+.new_boder a.animation_btn .banner_img.on {
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    -webkit-filter: grayscale(0.5) !important;
+}

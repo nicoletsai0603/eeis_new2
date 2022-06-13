@@ -1,0 +1,981 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0042)https://eeis.epa.gov.tw/front/Default.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-hant"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	環境教育資訊系統
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="環境教育資訊系統"><meta name="keywords" content="環教,環境教育,資訊系統,EEIS"><link href="./環境教育資訊系統_files/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"><link href="./環境教育資訊系統_files/font-awesome.min.css" rel="stylesheet" type="text/css" media="all"><link href="./環境教育資訊系統_files/social-buttons.css" rel="stylesheet" type="text/css" media="all"><link href="./環境教育資訊系統_files/cs.global.css" rel="stylesheet" type="text/css" media="all"><link href="./環境教育資訊系統_files/cs.styles.css" rel="stylesheet" type="text/css" media="all"><link href="./環境教育資訊系統_files/owl.carousel.css" rel="stylesheet" type="text/css" media="all"><link href="./環境教育資訊系統_files/spr.css" rel="stylesheet" type="text/css" media="all"><link href="./環境教育資訊系統_files/mystyle.css" rel="stylesheet" type="text/css" media="all"><link href="./環境教育資訊系統_files/jquery-ui.min.css" type="text/css" rel="stylesheet"><link href="./環境教育資訊系統_files/push_context.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" async="" src="./環境教育資訊系統_files/ga.js.下載"></script><script type="text/javascript" src="./環境教育資訊系統_files/jquery.min.js.下載"></script>
+    <script type="text/javascript" src="./環境教育資訊系統_files/jquery-migrate-1.4.1.min.js.下載"></script>
+    <script type="text/javascript" src="./環境教育資訊系統_files/jquery-ui.min.js.下載"></script>
+    <script type="text/javascript" src="./環境教育資訊系統_files/jquery.ui.datepicker-zh-TW.js.下載"></script>
+    <script type="text/javascript" src="./環境教育資訊系統_files/bootstrap.min.js.下載"></script>
+    <script type="text/javascript" src="./環境教育資訊系統_files/classie.js.下載"></script>
+    <script type="text/javascript" src="./環境教育資訊系統_files/scripts.js.下載"></script>
+    <script type="text/javascript" src="./環境教育資訊系統_files/jquery.zoom.min.js.下載"></script>
+    <script type="text/javascript" src="./環境教育資訊系統_files/owl.carousel.min.js.下載"></script>
+    <script type="text/javascript" src="./環境教育資訊系統_files/cs.script.js.下載" charset="big5"></script>
+    <script type="text/javascript" src="./環境教育資訊系統_files/cs.optionSelect.js.下載"></script>
+    <script type="text/javascript" src="./環境教育資訊系統_files/jquery.currencies.min.js.下載"></script>
+    <script type="text/javascript" src="./環境教育資訊系統_files/myJs.js.下載"></script>
+    <script type="text/javascript" src="./環境教育資訊系統_files/bootbox.min.js.下載"></script>
+    <script type="text/javascript" src="./環境教育資訊系統_files/get_webcounter.ashx" defer="defer"></script>
+    <script type="text/javascript" src="./環境教育資訊系統_files/jquery.maskedinput.min.js.下載"></script>
+    
+    <script type="text/javascript" src="./環境教育資訊系統_files/jquery.flexisel.js.下載" charset="big5"></script>
+    <link href="./環境教育資訊系統_files/style.css" rel="stylesheet" type="text/css" media="all">
+    <script type="text/javascript">
+        function show_msg()
+        {
+            $("#btn_msg").click();
+            return false;
+        }
+    </script>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-23732725-1']);
+        _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        $(function () {
+            if (document.getElementById('div_page_heading') != null)
+            {
+                document.getElementById('div_page_heading').scrollIntoView();
+            }
+            $("#a_seach").click(function () {
+                $("#txt_searchword").val($("#txt_seach").val());
+                $("#form_search").submit();
+                return false;
+            })
+            $(window).keydown(function (event) {
+                if (event.keyCode == 13 &&
+                    document.activeElement.id == "txt_seach" &&
+                    $("#txt_seach").val() != "")
+                {
+                    document.getElementById("a_seach").click()
+                }
+            });
+        });
+        if (top != window) {
+            top.location = window.location
+        }
+        if (top != self) { top.location = encodeURI(self.location); }
+    </script>
+    <style type="text/css">
+        .facebook{
+            color:#1E90FF !important;
+            font-size:16rem;
+        }
+        .facebook:hover{
+            color:darkorange !important;
+        }
+    </style>
+</head>
+<body class="no_rtl index-template 01_Furniture">
+    <!--Header-->
+    <header id="top" class="home2_theme_header header clearfix">
+        <section class="top-header">
+            <div class="top-header-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <a href="https://eeis.epa.gov.tw/front/Default.aspx#AC" id="gotocenter" title="跳到主要內容區塊" tabindex="0" class="sr-only sr-only-focusable">跳到主要內容區塊</a>
+                        <div class="top-header-inner">
+                            <div class="right-area hidden-xs">
+                                <ul class="unstyled">
+                                    <li>
+                                        <a href="https://eeis.epa.gov.tw/front/Default.aspx#U" id="AU" name="U" title="上方功能區塊" accesskey="U" tabindex="0">:::</a>
+                                        <a href="https://eeis.epa.gov.tw/front/Default.aspx" tabindex="0">首頁</a>
+                                    </li>
+                                    <li><a href="https://eeis.epa.gov.tw/front/Front_Sitemap.aspx" tabindex="0">網站導覽</a></li>
+                                    <li><a href="https://eeis.epa.gov.tw/front/Default.aspx?focus=people" tabindex="0">一般民眾</a></li>
+                                    <li><a href="https://eeis.epa.gov.tw/front/Default.aspx?focus=gov" tabindex="0">環保局/單位團體</a></li>
+                                    <li><a href="https://eeis.epa.gov.tw/front/EngWeb/Default1.aspx" tabindex="0">English</a></li>
+                                    <li id="ucAccountInfo_pc_li_hrf_login" class="login">
+    <a href="https://eeis.epa.gov.tw/Login.aspx" class="text_white" tabindex="0">登入</a>
+</li>
+
+
+
+<style type="text/css">
+    .login_info{margin-right:0px !important;}
+    .login_info::before{content:none !important;}
+</style>
+                                    <li>
+                                        <label class="display_none" for="txt_seach">關鍵字</label>
+                                        <input type="text" id="txt_seach" name="txt_seach" tabindex="0" placeholder="請輸入關鍵字">
+                                        <a id="a_seach" href="https://eeis.epa.gov.tw/front/Default.aspx#" title="搜尋"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">搜尋</span></a>
+                                    </li>
+                                </ul>
+                                <form id="form_search" method="post" action="https://eeis.epa.gov.tw/front/Search.aspx">
+                                    <input id="txt_searchword" name="txt_searchword" value="" type="hidden">
+                                    <input name="ctl00$searchtoken" type="hidden" id="searchtoken" value="99456">
+                                </form>
+                            </div>          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-header">
+            <div class="main-header-wrapper">
+                <div class="container clearfix">
+                    <div class="row">
+                        <div class="main-header-inner">
+                            <div class="nav-top">
+                                <h1 class="nav-logo">
+                                    <a href="https://eeis.epa.gov.tw/front/Default.aspx" title="環境教育資訊系統" tabindex="0">
+                                        
+                                        <img src="./環境教育資訊系統_files/logo.png" alt="環境教育資訊系統">
+                                    </a>
+                                </h1>
+                                <div class="navigation_area">
+                                    <ul class="navigation_links">
+                                        <li class="nav-item">
+                                            <a href="https://eeis.epa.gov.tw/front/msg/list.aspx" tabindex="0">
+                                                <span>訊息公告</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item dropdown navigation">
+                                            <a href="https://eeis.epa.gov.tw/front/Default.aspx#" class="dropdown-toggle dropdown-link" data-toggle="dropdown" tabindex="0">
+                                                <span>環境講習</span>
+                                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                                <i class="sub-dropdown1 visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                                <i class="sub-dropdown visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                            </a>
+                                            <ul class="dropdown-menu" style="display: none;">
+                                                <li class="li-sub-mega">
+                                                    <a href="https://eeis.epa.gov.tw/Login.aspx?o=tra" tabindex="0">環境講習業務(環保局)</a>
+                                                </li>
+                                                <li class="li-sub-mega">
+                                                    <a href="https://eeis.epa.gov.tw/front/courses/PenaltySearch.aspx" tabindex="0">環境講習查詢</a>
+                                                </li>
+                                                <li id="li_qr" class="li-sub-mega">
+                                                    <a href="https://eeis.epa.gov.tw/Login.aspx?o=qr" tabindex="0">掃描QR CODE</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown navigation">
+                                            <a href="https://eeis.epa.gov.tw/front/Default.aspx#" class="dropdown-toggle dropdown-link" data-toggle="dropdown" tabindex="0">
+                                                <span>環教資源</span>
+                                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown li-sub-mega">
+                                                    <a href="https://eeis.epa.gov.tw/front/Default.aspx#" class="dropdown-toggle dropdown-link" tabindex="0">
+                                                        <span>活動消息</span>
+                                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                                        <i class="sub-dropdown1  visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                                        <i class="sub-dropdown visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="li-sub-mega">
+                                                            <a href="https://eeis.epa.gov.tw/front/EEAction/_show/default.aspx" tabindex="0">活動查詢</a>
+                                                        </li>
+                                                        <li class="li-sub-mega">
+                                                            <a href="https://eeis.epa.gov.tw/front/EEAction/publish.aspx" tabindex="0">活動申請</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="li-sub-mega">
+                                                    <a href="https://eeis.epa.gov.tw/front/information/Default.aspx?type=1" tabindex="0">環境教育資訊專區</a>
+                                                </li>
+                                                <li class="li-sub-mega">
+                                                    <a href="https://eeis.epa.gov.tw/EELib/ClassHistorySearch.aspx" tabindex="0">環教圖書館</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown navigation">
+                                            <a href="https://eeis.epa.gov.tw/front/Default.aspx#" class="dropdown-toggle dropdown-link" data-toggle="dropdown" tabindex="0">
+                                                <span>相關申請</span>
+                                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                                <i class="sub-dropdown1  visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                                <i class="sub-dropdown visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">    
+                                                <li class="dropdown li-sub-mega">
+                                                    <a href="https://eeis.epa.gov.tw/front/Default.aspx#" class="dropdown-toggle dropdown-link" tabindex="0">
+                                                        <span>補(捐)助</span>
+                                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                                        <i class="sub-dropdown1 visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                                        <i class="sub-dropdown visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="li-sub-mega">
+                                                            <a href="https://eeis.epa.gov.tw/front/allowance/new_add.aspx" tabindex="0">補(捐)助申請</a>
+                                                        </li>
+                                                        <li class="li-sub-mega">
+                                                            <a href="https://eeis.epa.gov.tw/front/Allowance_actions/show/Default.aspx?type=EC" tabindex="0">活動成果展示</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="li-sub-mega">
+                                                    <a href="https://eeis.epa.gov.tw/front/Legal/Legal_add.aspx" tabindex="0">財團法人申請</a>
+                                                </li>
+                                                <li class="li-sub-mega">
+                                                    <a href="https://eeis.epa.gov.tw/front/information/Detail.aspx?id=75" tabindex="0">惜食推廣種子店家</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown navigation">
+                                            <a href="https://eeis.epa.gov.tw/front/Default.aspx#" class="dropdown-toggle dropdown-link" data-toggle="dropdown" tabindex="0">
+                                                <span>歷史資料</span>
+                                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                                <i class="sub-dropdown1  visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                                <i class="sub-dropdown visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                            </a>
+                                            <ul class="dropdown-menu">    
+                                                <li class="li-sub-mega">
+                                                    <a href="https://eeis.epa.gov.tw/front/HistoryEvent/" tabindex="0">環教歷史活動</a>
+                                                </li>
+                                                <li class="li-sub-mega">
+                                                    <a href="https://eeis.epa.gov.tw/front/resources/index.aspx?t=24" tabindex="0">國家環境教育</a>
+                                                </li>
+                                                <li class="li-sub-mega">
+                                                    <a href="https://eeis.epa.gov.tw/front/resources/index.aspx?t=2" tabindex="0">社會環境教育</a>
+                                                </li>
+                                                <li class="li-sub-mega">
+                                                    <a href="https://eeis.epa.gov.tw/front/resources/index.aspx?t=1" tabindex="0">學校環境教育</a>
+                                                </li>
+                                                <li class="li-sub-mega">
+                                                    <a href="https://eeis.epa.gov.tw/front/resources/index.aspx?t=32" tabindex="0">環境教育基金管理會會議資料</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="https://elearn.epa.gov.tw/" target="_blank" title="終身學習(另開新視窗)" tabindex="0">
+                                                <span>終身學習</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="https://eecs.epa.gov.tw/frontRWD/DefaultRWD.aspx" target="_blank" title="認證資訊(另開新視窗)" tabindex="0">
+                                                <span>認證資訊</span>
+                                            </a>
+                                        </li>
+                                    </ul>            
+                                </div>
+                            </div> 
+                            <div class="map_focus">
+                                <div class="css_table">
+                                    <div class="css_tr">
+                                        <div class="css_td width_25 text-center"><a href="https://eeis.epa.gov.tw/front/Front_Sitemap.aspx">網站<br>地圖</a></div>
+                                        <div class="css_td width_25 text-center"><a href="https://eeis.epa.gov.tw/front/Default.aspx?focus=people">一般<br>民眾</a></div>
+                                        <div class="css_td width_25 text-center"><a href="https://eeis.epa.gov.tw/front/Default.aspx?focus=gov">環保局/<br>單位團體</a></div>
+                                        <div class="css_td width_25 text-center"><a href="https://eeis.epa.gov.tw/front/Default.aspx#" onclick="$(&#39;#a_seach&#39;).click()"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">搜尋</span></a></div>
+                                    </div>
+                                </div>
+                            </div>        
+                            <div class="mobile-top-navigation visible-xs">    
+                                <button type="button" id="showLeftPush" class="visible-xs">
+                                    <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                                    <span class="sr-only">導覽列選單</span>
+                                </button>
+                                <ul class="list-inline">        
+                                    <li class="is-mobile-login">
+                                        <div class="btn-group">
+                                            <div class="dropdown-toggle" data-toggle="dropdown">
+                                                <i class="fa fa-user" aria-hidden="true"></i>
+                                            </div>
+                                            <ul class="customer dropdown-menu login">
+                                                
+
+
+<div id="ucAccountInfo_moblie_mobile">
+    <li><a href="https://eeis.epa.gov.tw/Login.aspx" id="ucAccountInfo_moblie_mobile_hrf_login">登入</a></li>
+    
+</div>
+<style type="text/css">
+    .login_info{margin-right:0px !important;}
+    .login_info::before{content:none !important;}
+</style>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="is-mobile-nav-menu nav-menu visible-xs" id="is-mobile-nav-menu">
+                                <ul class="nav navbar-nav hoverMenuWrapper">
+                                    <li class="nav-item">
+                                        <a href="https://eeis.epa.gov.tw/front/msg/list.aspx">
+                                            <span>訊息公告</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item dropdown navigation">
+                                        <a href="https://eeis.epa.gov.tw/front/Default.aspx#" class="dropdown-toggle dropdown-link" data-toggle="dropdown">
+                                            <span>環境講習</span>
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                            <i class="sub-dropdown1 visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                            <i class="sub-dropdown visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li class="li-sub-mega">
+                                                <a href="https://eeis.epa.gov.tw/Login.aspx?o=tra" tabindex="-1">環境講習業務(環保局)</a>
+                                            </li>
+                                            <li class="li-sub-mega">
+                                                <a href="https://eeis.epa.gov.tw/front/courses/PenaltySearch.aspx" tabindex="-1">環境講習查詢</a>
+                                            </li>
+                                            <li class="li-sub-mega">
+                                                <a href="https://eeis.epa.gov.tw/Login.aspx?o=qr" tabindex="-1">掃描QR CODE</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown navigation">
+                                        <a href="https://eeis.epa.gov.tw/front/Default.aspx#" class="dropdown-toggle dropdown-link" data-toggle="dropdown">
+                                            <span>環教資源</span>
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                            <i class="sub-dropdown1 visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                            <i class="sub-dropdown visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li class=" dropdown li-sub-mega">
+                                                <a href="https://eeis.epa.gov.tw/front/Default.aspx#">
+                                                    <span>活動消息</span>
+                                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                                    <i class="sub-dropdown1 visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                                    <i class="sub-dropdown visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li class="li-sub-mega">
+                                                        <a href="https://eeis.epa.gov.tw/front/EEAction/_show/default.aspx" tabindex="-1">活動查詢</a>
+                                                    </li>
+                                                    <li class="li-sub-mega">
+                                                        <a href="https://eeis.epa.gov.tw/front/EEAction/publish.aspx" tabindex="-1">活動申請</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="li-sub-mega">
+                                                <a href="https://eeis.epa.gov.tw/front/information/Default.aspx?type=1" tabindex="-1">環境教育資訊專區</a>
+                                            </li>
+                                            <li class="li-sub-mega">
+                                                <a href="https://eeis.epa.gov.tw/EELib/ClassHistorySearch.aspx" tabindex="-1">環教圖書館</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown navigation">
+                                        <a href="https://eeis.epa.gov.tw/front/Default.aspx#" class="dropdown-toggle dropdown-link" data-toggle="dropdown">
+                                            <span>相關申請</span>
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                            <i class="sub-dropdown1 visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                            <i class="sub-dropdown visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li class=" dropdown li-sub-mega">
+                                                <a href="https://eeis.epa.gov.tw/front/Default.aspx#">
+                                                    <span>補(捐)助</span>
+                                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                                    <i class="sub-dropdown1 visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                                    <i class="sub-dropdown visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li class="li-sub-mega">
+                                                        <a href="https://eeis.epa.gov.tw/front/Allowance/new_add.aspx" tabindex="-1">補(捐)助申請</a>
+                                                    </li>
+                                                    <li class="li-sub-mega">
+                                                        <a href="https://eeis.epa.gov.tw/front/Allowance_actions/show/Default.aspx?type=EC" tabindex="-1">活動成果展示</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="li-sub-mega">
+                                                <a href="https://eeis.epa.gov.tw/front/Legal/Legal_add.aspx" tabindex="-1">財團法人申請</a>
+                                            </li>
+                                            <li class="li-sub-mega">
+                                                <a href="https://eeis.epa.gov.tw/front/information/Detail.aspx?id=75" tabindex="0">惜食推廣種子店家</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown navigation">
+                                        <a href="https://eeis.epa.gov.tw/front/Default.aspx#" class="dropdown-toggle dropdown-link" data-toggle="dropdown">
+                                            <span>歷史資料</span>
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                            <i class="sub-dropdown1 visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                            <i class="sub-dropdown visible-sm visible-md visible-lg" aria-hidden="true"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li class="li-sub-mega">
+                                                <a href="https://eeis.epa.gov.tw/front/HistoryEvent/" tabindex="-1">環教歷史活動</a>
+                                            </li>
+                                            <li class="li-sub-mega">
+                                                <a href="https://eeis.epa.gov.tw/front/resources/index.aspx?t=24" tabindex="-1">國家環境教育</a>
+                                            </li>
+                                            <li class="li-sub-mega">
+                                                <a href="https://eeis.epa.gov.tw/front/resources/index.aspx?t=2" tabindex="-1">社會環境教育</a>
+                                            </li>
+                                            <li class="li-sub-mega">
+                                                <a href="https://eeis.epa.gov.tw/front/resources/index.aspx?t=1" tabindex="-1">學校環境教育</a>
+                                            </li>
+                                            <li class="li-sub-mega">
+                                                <a href="https://eeis.epa.gov.tw/front/resources/index.aspx?t=32" tabindex="-1">環境教育基金管理會歷次委員會議資料</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="https://elearn.epa.gov.tw/" title="終身學習">
+                                            <span>終身學習</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="https://eecs.epa.gov.tw/frontRWD/DefaultRWD.aspx" title="認證資訊">
+                                            <span>認證資訊</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!--Main content-->
+    <form method="post" action="https://eeis.epa.gov.tw/front/Default.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./環境教育資訊系統_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./環境教育資訊系統_files/ScriptResource.axd" type="text/javascript"></script>
+<script src="./環境教育資訊系統_files/ScriptResource(1).axd" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3C9CBD2B">
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/JPVkQ8hNElQOZ9+JmjxsoUGTUr8Ai5XF50GYI2It9tUHeZSgADpict4j+RAnLOIzjVRMQ3fOC1ZgI4NMvRpL7Opo/uU8Y/35ORU5IpSI3s1CJNoyBGksubrJnFg3hdp25t8E49QvD1x9d+nq/+tWrPGAR6vgj8hQ9LEk7Pr11iRJePifPTSKyIjdxPihjZLD3/nXw==">
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager', 'form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+        <div class="text-left"><a href="https://eeis.epa.gov.tw/front/Default.aspx#C" id="AC" name="C" title="中間內容區塊" accesskey="C">:::</a></div>
+        <main id="content" class="main-content" role="main">
+            <noscript>您的瀏覽器不支援JavaScript功能，若網頁功能無法正常使用時，請開啟瀏覽器JavaScript狀態</noscript>
+            
+            <div class="container">
+                
+    <div class="main_box">
+        <!--輪播區-->
+        <section class="home2_slideshow main-slideshow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9 home-slideshow-inner">
+                        <div id="home2_main-slider" class="carousel slide carousel-fade main-slider">
+                            <div class="carousel-inner">
+                                
+                                        <div class="item active slideshow-1"><a href="https://eeis.epa.gov.tw/front/information/Detail.aspx?id=138" title="恐怖者的恐懼—赤尾青竹絲"><img src="./環境教育資訊系統_files/197f5490719347298d54f97d73d26860.jpg" alt="恐怖者的恐懼—赤尾青竹絲"></a></div>
+                                    
+                                        <div class="item  slideshow-2"><a href="https://eeis.epa.gov.tw/front/information/Detail.aspx?id=137" title="111年「全國環境知識大挑戰」網路活動開跑，iPad Air等你來拿！"><img src="./環境教育資訊系統_files/c14df0fd48854cd5bd074ae9c4f35c37.jpg" alt="111年「全國環境知識大挑戰」網路活動開跑，iPad Air等你來拿！"></a></div>
+                                    
+                                        <div class="item  slideshow-3"><a href="https://eeis.epa.gov.tw/front/information/Detail.aspx?id=135" title="2022 International Environmental Issue and Education for Youth"><img src="./環境教育資訊系統_files/6b54b336f9a747d98978e8ed34cc5147.jpg" alt="2022 International Environmental Issue and Education for Youth"></a></div>
+                                    
+                                        <div class="item  slideshow-4"><a href="https://eeis.epa.gov.tw/front/information/Detail.aspx?id=133" title="「2022-2023環境關懷設計競賽」即日起至111年11月13日強力徵件！"><img src="./環境教育資訊系統_files/664e29e1001a478792248986f6292d70.jpg" alt="「2022-2023環境關懷設計競賽」即日起至111年11月13日強力徵件！"></a></div>
+                                    
+                                        <div class="item  slideshow-5"><a href="https://eeis.epa.gov.tw/front/information/Detail.aspx?id=132" title="喂！虎鯨—很高興認識你"><img src="./環境教育資訊系統_files/af73aba1d45c47a7a9a6d16c704e9306.jpg" alt="喂！虎鯨—很高興認識你"></a></div>
+                                    
+                                        <div class="item  slideshow-6"><a href="https://eeis.epa.gov.tw/front/information/Detail.aspx?id=131" title="【首惜廚師】惜食料理食譜暨教案甄選等你來挑戰"><img src="./環境教育資訊系統_files/05fb414371b24c4490b45d4adbbc6737.jpg" alt="【首惜廚師】惜食料理食譜暨教案甄選等你來挑戰"></a></div>
+                                    
+                                        <div class="item  slideshow-7"><a href="https://eeis.epa.gov.tw/front/information/Detail.aspx?id=75" title="惜食推廣種子店家"><img src="./環境教育資訊系統_files/a346696787d54b1fb1de9d4108a92dce.jpg" alt="惜食推廣種子店家"></a></div>
+                                    
+                            </div>
+                            <a id="Sprev" class="left carousel-control" href="https://eeis.epa.gov.tw/front/Default.aspx#home2_main-slider" data-slide="prev" title="上一個" tabindex="0">
+                                <i class="icon-prev"></i>
+                                <label class="sr-only">上一個</label>
+                            </a>
+                            <a id="Snext" class="right carousel-control" href="https://eeis.epa.gov.tw/front/Default.aspx#home2_main-slider" data-slide="next" title="下一個" tabindex="0" onkeydown="TabSlideShow(event,-1,0,100)">
+                                <i class="icon-next"></i>
+                                <label class="sr-only">下一個</label>
+                            </a>
+                            <ol class="carousel-indicators">
+                                <li data-target="#home2_main-slider" data-slide-to="0" class="spoint carousel-1 active" title="1" tabindex="0" onkeydown="return TabSlideShow(event,138,1,7)"></li><li data-target="#home2_main-slider" data-slide-to="1" class="spoint carousel-2 " title="2" tabindex="0" onkeydown="return TabSlideShow(event,137,2,7)"></li><li data-target="#home2_main-slider" data-slide-to="2" class="spoint carousel-3 " title="3" tabindex="0" onkeydown="return TabSlideShow(event,135,3,7)"></li><li data-target="#home2_main-slider" data-slide-to="3" class="spoint carousel-4 " title="4" tabindex="0" onkeydown="return TabSlideShow(event,133,4,7)"></li><li data-target="#home2_main-slider" data-slide-to="4" class="spoint carousel-5 " title="5" tabindex="0" onkeydown="return TabSlideShow(event,132,5,7)"></li><li data-target="#home2_main-slider" data-slide-to="5" class="spoint carousel-6 " title="6" tabindex="0" onkeydown="return TabSlideShow(event,131,6,7)"></li><li data-target="#home2_main-slider" data-slide-to="6" class="spoint carousel-7 " title="7" tabindex="0" onkeydown="return TabSlideShow(event,75,7,7)"></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 home-rightbanner-wrapper">
+                        <div class="home-rightbanner-inner">
+                            <div class="home_rightbanner_group home_forher_group">
+                                <div class="home_rightbanner_image">
+                                    <img src="./環境教育資訊系統_files/front_test.png" alt="環境主題隨堂測驗">
+                                </div>
+                                <div class="home_rightbanner_content">
+                                    <div class="dis_table">
+                                        <div class="dis_tablecell">
+                                            <div class="home_rightbanner_content_inner">
+                                                <p class="p1 text_crude">環境主題<br>隨堂測驗</p>
+                                                <a class="btn" href="https://eeis.epa.gov.tw/front/quiz/examine.aspx">小試身手</a>
+                                            </div>                  
+                                        </div>
+                                    </div>              
+                                </div>
+                            </div>
+                            <div class="home_rightbanner_group home_forhim_group">
+                                <div class="home_rightbanner_image">
+                                    <img src="./環境教育資訊系統_files/front_lib.png" alt="環教圖書館">
+                                </div>
+                                <div class="home_rightbanner_content">
+                                    <div class="dis_table">
+                                        <div class="dis_tablecell">
+                                            <div class="home_rightbanner_content_inner">
+                                                <p class="p1 text_white text_crude">環教圖書館</p>
+                                                <a class="btn" href="https://eeis.epa.gov.tw/EELib/ClassHistorySearch.aspx">學無止境</a>
+                                            </div>                  
+                                        </div>
+                                    </div>              
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--近期活動-->
+        <div class="div_accordion">
+            <h2 class="accordion" onclick="accordion(&#39;action&#39;)"><span id="icon_action" class="icon_up"></span>近期活動</h2>
+            <div class="_hide" id="action">
+                <section class="home2_product" id="home_product_layout">
+                    <div class="container">
+                        <div class="row">
+                            <h2 class="page-title">
+                                <span>近期活動</span>
+                            </h2>
+                            <div class="home_product_content home-content" style="min-height:333px;">
+                                <div class="product_left">
+                                    <div class="leftbanner_image">
+                                        <img src="./環境教育資訊系統_files/action_left.jpg" alt="環境教育活動">
+                                    </div>
+                                    <div class="leftbanner_content">
+                                        <div class="dis_table">
+                                            <div class="dis_tablecell">
+                                                <div class="text_group">
+                                                    <p class="p1">環境教育活動</p>
+                                                </div>
+                                                <a href="https://eeis.epa.gov.tw/front/EEAction/publish.aspx" class="btn text_crude">發表環教活動</a>
+                                                <a href="https://eeis.epa.gov.tw/front/EEAction/_show/Default.aspx" class="btn text_crude">活動查詢</a>
+                                            </div>
+                                        </div>                
+                                    </div>
+                                </div>
+                                <div class="product_right_group">
+                                    <div class="home2_product_right display_block owl-carousel owl-theme" style="opacity: 1;">
+                                        
+                                                <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 5038px; left: 0px; display: block; transition: all 0ms ease 0s; transform: translate3d(0px, 0px, 0px);"><div id="owl_item" class="owl-item" style="width: 229px;"><div class="action_item col-sm-12">
+                                                    <div class="row-container product list-unstyled clearfix">
+                                                        <div class="row-left">
+                                                            <a tabindex="0" href="https://eeis.epa.gov.tw/front/EEAction/_show/Detail.aspx?pid=333592&amp;type=3" class="hoverBorder container_item" title="行道樹的選擇與管理、都市綠地基盤整備"> 
+                                                                <div class="hoverBorderWrapper">
+                                                                    <img src="./環境教育資訊系統_files/action3.png" class="img-responsive front" alt="行道樹的選擇與管理、都市綠地基盤整備">
+                                                                    <div class="mask"></div>
+                                                                </div>        
+                                                            </a>
+                                                        </div>
+                                                        <div class="row-right animMix product-title text-left">
+                                                            行道樹的選擇與管理、都市綠地基盤整備
+                                                        </div>  
+                                                        <div class="hover-mask">
+                                                            <p class="text-left">一、	行道樹的選擇與管理
+行道樹為影響都市景觀......</p>
+                                                        </div> 
+                                                    </div>
+                                                </div></div><div id="owl_item" class="owl-item" style="width: 229px;"><div class="action_item col-sm-12">
+                                                    <div class="row-container product list-unstyled clearfix">
+                                                        <div class="row-left">
+                                                            <a tabindex="0" href="https://eeis.epa.gov.tw/front/EEAction/_show/Detail.aspx?pid=333568&amp;type=13" class="hoverBorder container_item" title="第六期氣候變遷組【節能講師】培訓班"> 
+                                                                <div class="hoverBorderWrapper">
+                                                                    <img src="./環境教育資訊系統_files/action13.png" class="img-responsive front" alt="第六期氣候變遷組【節能講師】培訓班">
+                                                                    <div class="mask"></div>
+                                                                </div>        
+                                                            </a>
+                                                        </div>
+                                                        <div class="row-right animMix product-title text-left">
+                                                            第六期氣候變遷組【節能講師】培訓班
+                                                        </div>  
+                                                        <div class="hover-mask">
+                                                            <p class="text-left">地球生病了，
+
+生病的不是牆上的世界地圖，
+......</p>
+                                                        </div> 
+                                                    </div>
+                                                </div></div><div id="owl_item" class="owl-item" style="width: 229px;"><div class="action_item col-sm-12">
+                                                    <div class="row-container product list-unstyled clearfix">
+                                                        <div class="row-left">
+                                                            <a tabindex="0" href="https://eeis.epa.gov.tw/front/EEAction/_show/Detail.aspx?pid=333597&amp;type=1" class="hoverBorder container_item" title="2022動保扎根教師研習場次一【國教署動保教材的編撰與校園課程實踐】"> 
+                                                                <div class="hoverBorderWrapper">
+                                                                    <img src="./環境教育資訊系統_files/action1.png" class="img-responsive front" alt="2022動保扎根教師研習場次一【國教署動保教材的編撰與校園課程實踐】">
+                                                                    <div class="mask"></div>
+                                                                </div>        
+                                                            </a>
+                                                        </div>
+                                                        <div class="row-right animMix product-title text-left">
+                                                            2022動保扎根教師研習場次一【國教署動保教材的編撰與校園課程實...
+                                                        </div>  
+                                                        <div class="hover-mask">
+                                                            <p class="text-left">關懷生命協會長期致力於動物保護教育，自2007年......</p>
+                                                        </div> 
+                                                    </div>
+                                                </div></div><div id="owl_item" class="owl-item" style="width: 229px;"><div class="action_item col-sm-12">
+                                                    <div class="row-container product list-unstyled clearfix">
+                                                        <div class="row-left">
+                                                            <a tabindex="0" href="https://eeis.epa.gov.tw/front/EEAction/_show/Detail.aspx?pid=333574&amp;type=9" class="hoverBorder container_item" title="病媒蚊孳生源講習會"> 
+                                                                <div class="hoverBorderWrapper">
+                                                                    <img src="./環境教育資訊系統_files/action9.png" class="img-responsive front" alt="病媒蚊孳生源講習會">
+                                                                    <div class="mask"></div>
+                                                                </div>        
+                                                            </a>
+                                                        </div>
+                                                        <div class="row-right animMix product-title text-left">
+                                                            病媒蚊孳生源講習會
+                                                        </div>  
+                                                        <div class="hover-mask">
+                                                            <p class="text-left">為因應登革熱病例防治作為與區級二級防治中心開設人......</p>
+                                                        </div> 
+                                                    </div>
+                                                </div></div><div id="owl_item" class="owl-item" style="width: 229px;"><div class="action_item col-sm-12">
+                                                    <div class="row-container product list-unstyled clearfix">
+                                                        <div class="row-left">
+                                                            <a tabindex="0" href="https://eeis.epa.gov.tw/front/EEAction/_show/Detail.aspx?pid=333598&amp;type=1" class="hoverBorder container_item" title="2022動保扎根教師研習場次二【社會及媒體識讀：社會學與政治學中的動物圖像】"> 
+                                                                <div class="hoverBorderWrapper">
+                                                                    <img src="./環境教育資訊系統_files/action1.png" class="img-responsive front" alt="2022動保扎根教師研習場次二【社會及媒體識讀：社會學與政治學中的動物圖像】">
+                                                                    <div class="mask"></div>
+                                                                </div>        
+                                                            </a>
+                                                        </div>
+                                                        <div class="row-right animMix product-title text-left">
+                                                            2022動保扎根教師研習場次二【社會及媒體識讀：社會學與政治學中...
+                                                        </div>  
+                                                        <div class="hover-mask">
+                                                            <p class="text-left">關懷生命協會長期致力於動物保護教育，自2007年......</p>
+                                                        </div> 
+                                                    </div>
+                                                </div></div><div id="owl_item" class="owl-item" style="width: 229px;"><div class="action_item col-sm-12">
+                                                    <div class="row-container product list-unstyled clearfix">
+                                                        <div class="row-left">
+                                                            <a tabindex="0" href="https://eeis.epa.gov.tw/front/EEAction/_show/Detail.aspx?pid=333599&amp;type=1" class="hoverBorder container_item" title="2022動保扎根教師研習場次三【食農教育與蔬食議題：種出生命體驗——教出食農教育的多元教育內涵】"> 
+                                                                <div class="hoverBorderWrapper">
+                                                                    <img src="./環境教育資訊系統_files/action1.png" class="img-responsive front" alt="2022動保扎根教師研習場次三【食農教育與蔬食議題：種出生命體驗——教出食農教育的多元教育內涵】">
+                                                                    <div class="mask"></div>
+                                                                </div>        
+                                                            </a>
+                                                        </div>
+                                                        <div class="row-right animMix product-title text-left">
+                                                            2022動保扎根教師研習場次三【食農教育與蔬食議題：種出生命體驗...
+                                                        </div>  
+                                                        <div class="hover-mask">
+                                                            <p class="text-left">關懷生命協會長期致力於動物保護教育，自2007年......</p>
+                                                        </div> 
+                                                    </div>
+                                                </div></div><div id="owl_item" class="owl-item" style="width: 229px;"><div class="action_item col-sm-12">
+                                                    <div class="row-container product list-unstyled clearfix">
+                                                        <div class="row-left">
+                                                            <a tabindex="0" href="https://eeis.epa.gov.tw/front/EEAction/_show/Detail.aspx?pid=333593&amp;type=3" class="hoverBorder container_item" title=" 海綿城市都市洪水管理"> 
+                                                                <div class="hoverBorderWrapper">
+                                                                    <img src="./環境教育資訊系統_files/action3.png" class="img-responsive front" alt=" 海綿城市都市洪水管理">
+                                                                    <div class="mask"></div>
+                                                                </div>        
+                                                            </a>
+                                                        </div>
+                                                        <div class="row-right animMix product-title text-left">
+                                                             海綿城市都市洪水管理
+                                                        </div>  
+                                                        <div class="hover-mask">
+                                                            <p class="text-left"> 中華民族數千年俗語：“水為財＂，水帶來生命，水......</p>
+                                                        </div> 
+                                                    </div>
+                                                </div></div><div id="owl_item" class="owl-item" style="width: 229px;"><div class="action_item col-sm-12">
+                                                    <div class="row-container product list-unstyled clearfix">
+                                                        <div class="row-left">
+                                                            <a tabindex="0" href="https://eeis.epa.gov.tw/front/EEAction/_show/Detail.aspx?pid=333600&amp;type=1" class="hoverBorder container_item" title="2022動保扎根教師研習場次四【食農教育與蔬食議題：蔬食與環境的綠色行動——食農教案與教學實務分享】"> 
+                                                                <div class="hoverBorderWrapper">
+                                                                    <img src="./環境教育資訊系統_files/action1.png" class="img-responsive front" alt="2022動保扎根教師研習場次四【食農教育與蔬食議題：蔬食與環境的綠色行動——食農教案與教學實務分享】">
+                                                                    <div class="mask"></div>
+                                                                </div>        
+                                                            </a>
+                                                        </div>
+                                                        <div class="row-right animMix product-title text-left">
+                                                            2022動保扎根教師研習場次四【食農教育與蔬食議題：蔬食與環境的...
+                                                        </div>  
+                                                        <div class="hover-mask">
+                                                            <p class="text-left">關懷生命協會長期致力於動物保護教育，自2007年......</p>
+                                                        </div> 
+                                                    </div>
+                                                </div></div><div id="owl_item" class="owl-item" style="width: 229px;"><div class="action_item col-sm-12">
+                                                    <div class="row-container product list-unstyled clearfix">
+                                                        <div class="row-left">
+                                                            <a tabindex="0" href="https://eeis.epa.gov.tw/front/EEAction/_show/Detail.aspx?pid=333601&amp;type=1" class="hoverBorder container_item" title="2022動保扎根教師研習場次五【環境教育議題：動物園的設立與教育】"> 
+                                                                <div class="hoverBorderWrapper">
+                                                                    <img src="./環境教育資訊系統_files/action1.png" class="img-responsive front" alt="2022動保扎根教師研習場次五【環境教育議題：動物園的設立與教育】">
+                                                                    <div class="mask"></div>
+                                                                </div>        
+                                                            </a>
+                                                        </div>
+                                                        <div class="row-right animMix product-title text-left">
+                                                            2022動保扎根教師研習場次五【環境教育議題：動物園的設立與教育...
+                                                        </div>  
+                                                        <div class="hover-mask">
+                                                            <p class="text-left">關懷生命協會長期致力於動物保護教育，自2007年......</p>
+                                                        </div> 
+                                                    </div>
+                                                </div></div><div id="owl_item" class="owl-item" style="width: 229px;"><div class="action_item col-sm-12">
+                                                    <div class="row-container product list-unstyled clearfix">
+                                                        <div class="row-left">
+                                                            <a tabindex="0" href="https://eeis.epa.gov.tw/front/EEAction/_show/Detail.aspx?pid=333602&amp;type=1" class="hoverBorder container_item" title="2022動保扎根教師研習場次六【語文領域：如何以文學來培養對動物的覺知與同理】"> 
+                                                                <div class="hoverBorderWrapper">
+                                                                    <img src="./環境教育資訊系統_files/action1.png" class="img-responsive front" alt="2022動保扎根教師研習場次六【語文領域：如何以文學來培養對動物的覺知與同理】">
+                                                                    <div class="mask"></div>
+                                                                </div>        
+                                                            </a>
+                                                        </div>
+                                                        <div class="row-right animMix product-title text-left">
+                                                            2022動保扎根教師研習場次六【語文領域：如何以文學來培養對動物...
+                                                        </div>  
+                                                        <div class="hover-mask">
+                                                            <p class="text-left">關懷生命協會長期致力於動物保護教育，自2007年......</p>
+                                                        </div> 
+                                                    </div>
+                                                </div></div><div id="owl_item" class="owl-item" style="width: 229px;"><div class="action_item col-sm-12">
+                                                    <div class="row-container product list-unstyled clearfix">
+                                                        <div class="row-left">
+                                                            <a tabindex="0" href="https://eeis.epa.gov.tw/front/EEAction/_show/Detail.aspx?pid=333590&amp;type=1" class="hoverBorder container_item" title="好好愛牠 2022 動保教育講座「『疫』同生活的一件好事愛動物」 "> 
+                                                                <div class="hoverBorderWrapper">
+                                                                    <img src="./環境教育資訊系統_files/action1.png" class="img-responsive front" alt="好好愛牠 2022 動保教育講座「『疫』同生活的一件好事愛動物」 ">
+                                                                    <div class="mask"></div>
+                                                                </div>        
+                                                            </a>
+                                                        </div>
+                                                        <div class="row-right animMix product-title text-left">
+                                                            好好愛牠 2022 動保教育講座「『疫』同生活的一件好事愛動物」...
+                                                        </div>  
+                                                        <div class="hover-mask">
+                                                            <p class="text-left">新冠肺炎（COVID19）自2019年底蠢蠢欲動......</p>
+                                                        </div> 
+                                                    </div>
+                                                </div></div></div></div>
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                    <div class="owl-controls"><div class="owl-buttons"><a class="owl-prev" tabindex="0" href="https://eeis.epa.gov.tw/front/Default.aspx#home2_product_right" title="上一個"><i class="fa fa-angle-left" title="" data-toggle="tooltip" data-placement="top" data-original-title="上一個"></i></a><a class="owl-next" tabindex="0" href="https://eeis.epa.gov.tw/front/Default.aspx#home2_product_right" title="下一個"><i class="fa fa-angle-right" title="" data-toggle="tooltip" data-placement="top" data-original-title="下一個"></i></a></div></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!--補(捐)助申請-->
+        
+        <!--對外連結-->
+        <div class="banner_slider">
+            <div class="nbs-flexisel-container"><div class="nbs-flexisel-inner"><ul class="nbs-flexisel-ul" style="left: 0px;">
+                <li class="nbs-flexisel-item index" style="width: 285px;"><a href="https://greenliving.epa.gov.tw/GreenLife/" target="_blank" title="綠色生活資訊網(另開新視窗)"><span>綠色生活資訊網</span></a></li>
+                <li class="nbs-flexisel-item" style="width: 285px;"><a href="https://www.epa.gov.tw/communitybetter/9276795E487FF1AB" target="_blank" title="社區環保行動網(另開新視窗)"><span>社區環保行動網</span></a></li>
+                <li class="nbs-flexisel-item" style="width: 285px;"><a href="https://eeis.epa.gov.tw/e-school/Index.aspx" target="_blank" title="環境E學院(另開新視窗)"><span>環境E學院</span></a></li>
+                <li class="nbs-flexisel-item" style="width: 285px;"><a href="https://recycle1.epa.gov.tw/sys/business/" target="_blank" title="應回收廢棄物營業量申報系統(另開新視窗)"><span>應回收廢棄物營<br>業量申報系統</span></a></li>
+                <li class="nbs-flexisel-item" style="width: 285px;"><a href="https://recycle.epa.gov.tw/index.aspx" target="_blank" title="資源回收網(另開新視窗)"><span>資源回收網</span></a></li>
+                <li class="nbs-flexisel-item" style="width: 285px;"><a href="https://ecocampus.epa.gov.tw/" target="_blank" title="臺美生態學校夥伴(另開新視窗)"><span>臺美生態學校夥伴</span></a></li>
+                <li class="nbs-flexisel-item" style="width: 285px;"><a href="https://eeis.epa.gov.tw/eeaward/" target="_blank" title="國家環境教育獎(另開新視窗)"><span>國家環境教育獎</span></a></li>
+            </ul><a class="nbs-flexisel-nav-left disabled" title="上一個" tabindex="0" href="https://eeis.epa.gov.tw/front/Default.aspx#banner_slider"><span></span></a><a class="nbs-flexisel-nav-right" title="下一個" tabindex="0" href="https://eeis.epa.gov.tw/front/Default.aspx#banner_slider"><span></span></a></div></div>
+        </div>
+    </div>
+    <div id="ContentPlaceHolder1_div_focus">
+        <div id="newsletter-popup" class="modal fade" role="dialog" style="display: none;" aria-hidden="true">
+            <div class="nl-wraper-popup bounceInDown focus_bg animated">
+                <div class="row">
+                    <div id="div_people" class="col-md-12 focus_people text-center">
+                        <a href="https://eeis.epa.gov.tw/front/Default.aspx?focus=people" tabindex="1">
+                            <img src="./環境教育資訊系統_files/focus_people.png" onmouseover="people_hover(this);" onmouseout="people_unhover(this);" alt="民眾/其他單位團體">
+                        </a>
+                    </div>
+                    <div id="div_gov" class="col-md-12 focus_epa text-center">
+                        <a href="https://eeis.epa.gov.tw/front/Default.aspx?focus=gov" tabindex="2">
+                            <img src="./環境教育資訊系統_files/focus_epa.png" onmouseover="epa_hover(this);" onmouseout="epa_unhover(this);" alt="環保局業務承辦">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function people_hover(element) {
+            element.setAttribute('src', '../x/rwd/img/focus_peoplea.png');
+        }
+        function people_unhover(element) {
+            element.setAttribute('src', '../x/rwd/img/focus_people.png');
+        }
+        function epa_hover(element) {
+            element.setAttribute('src', '../x/rwd/img/focus_epaa.png');
+        }
+        function epa_unhover(element) {
+            element.setAttribute('src', '../x/rwd/img/focus_epa.png');
+        }
+        $(window).on("load", function () {
+            $(".banner_slider ul").flexisel({
+                visibleItems: 4,
+                itemsToScroll: 1,
+                infinite: false
+            });
+        });
+        $("#Sprev").focus(function () {
+            $(this).html("前");
+        })
+        $("#Sprev").focusout(function () {
+            $(this).html("<i class=\"icon-prev\"></i><label class=\"sr-only\">上一個</label>");
+        })
+        $("#Snext").focus(function () {
+            $(this).html("後");
+        })
+        $("#Snext").focusout(function () {
+            $(this).html("<i class=\"icon-next\"></i><label class=\"sr-only\">下一個</label>");
+        })
+        $(".spoint").focus(function () {
+            $(this).html("第"+$(this).attr("title")+"則");
+        })
+        $(".spoint").focusout(function () {
+            $(this).html("");
+        })
+        $(function () {
+            $(".owl-prev").attr("title", "上一個");
+            $(".owl-next").attr("title", "下一個");
+        })
+    </script>
+    <div class="display_none">
+        <input name="ctl00$ContentPlaceHolder1$ucShowErrorMsg$dialog_error_msg_url" type="hidden" id="dialog_error_msg_url">
+<input name="ctl00$ContentPlaceHolder1$ucShowErrorMsg$hdd_alertlabel" type="hidden" id="hdd_alertlabel" value="確認">
+<script type="text/javascript">
+    function show_error_msg(v) {
+        bootbox.alert({
+            message: v,
+            buttons: {
+                ok: {
+                    label: $("#hdd_alertlabel").val(),
+                    className: "btn_submit"
+                }
+            },
+            callback: function () {
+                if ($("#dialog_error_msg_url").val() != "") {
+                    location.replace($("#dialog_error_msg_url").val());
+                }
+            }
+        })
+    }
+</script>
+
+
+        <input type="submit" name="ctl00$ContentPlaceHolder1$btn_msg" value="" id="btn_msg">
+    </div>
+
+            </div>
+        </main>
+    </form>
+    <!--footer-->
+    <footer class="footer home2_theme_footer">
+        <a href="https://eeis.epa.gov.tw/front/Default.aspx#B" id="AB" name="B" title="下方網站資訊" accesskey="B">:::</a>
+        <section class="footer_link_block">
+            <div class="footer_link_wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer_link_inner">
+                            <div class="footer_link_content">
+                                <div class="footer_block02 aboutus_links col-ms-3 col-md-4">              
+                                    <div class="link_title font18 text-white">
+                                        版權所有
+                                    </div>
+                                    <div class="link_content">
+                                        <ul class="link_menu">
+                                            <li>
+                                                <span>行政院環境保護署</span>
+                                                <a href="https://www.facebook.com/groups/EEtouching/" target="_blank" title="Facebook(另開新視窗)"><i class="fa fa-facebook-square facebook" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
+                                            </li>
+                                            <li><span>100006  臺北市中正區中華路一段83號</span></li>
+                                            <li><a href="https://www.epa.gov.tw/Page/70E67DE2079DF931" target="_blank" class="text_underline" style="color:darkorange !important;">網頁政策及宣告</a></li>
+                                        </ul>
+                                    </div>             
+                                </div>
+                                <div class="footer_block02 aboutus_links col-ms-3 col-md-4">              
+                                    <div class="link_title font18 text-white">網站維護</div>
+                                    <div class="link_content">
+                                        <ul class="link_menu">
+                                            <li><span>環資國際有限公司</span></li>
+                                            <li><span>108002 臺北市萬華區中華路一段90號7樓</span></li>
+                                            <li><span>TEL:(02)2311-7722#2768<br>(02)7753-2338#111</span></li>
+                                            <li>若您有本網系統操作問題，請<a href="https://eeis.epa.gov.tw/front/contact.aspx" class="text_underline" style="color:darkorange !important;"><span>聯絡我們</span></a></li>
+                                            <li><a href="https://eeis.epa.gov.tw/front/Ques.aspx" class="text_underline" style="color:darkorange !important;">系統問題留言點此</a></li>
+                                            <li>若您有其他環保問題，請至<a href="https://epamail.epa.gov.tw/Front/MailBoxHome" target="_blank" title="首長信箱(另開新視窗)" class="text_underline">首長信箱</a>發表，感謝您的寶貴建議</li>
+                                        </ul>
+                                    </div>             
+                                </div>
+                                <div class="footer_block03 account_links col-ms-3 col-md-4">              
+                                    <div class="link_title font18 text-white">關於本站</div>
+                                    <div class="link_content">
+                                        <ul class="link_menu">
+                                            <li>累計瀏覽人數：<span id="WebCounterTotal">1871001</span></li>
+                                            <li>今日瀏覽：<span id="WebCounterToday">2</span></li>
+                                            <li>網頁更新日期：<span>2022/06/12</span></li>
+                                            <li>	
+                                                <a href="https://accessibility.ncc.gov.tw/Applications/Detail?category=20210513080558" title="無障礙網站">
+                                                    <img src="./環境教育資訊系統_files/accessibility_A.png" border="0" width="88" height="31" alt="通過A檢測等級無障礙網頁檢測">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>             
+                                </div>
+                            </div>         
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- Float right icon -->
+    <div class="float-right-icon">
+        <ul>
+            <li>
+                <a id="scroll-to-top" data-placement="left" title="前往頂部" class="animated off fadeOutRight" tabindex="0" href="https://eeis.epa.gov.tw/front/Default.aspx#float-right-icon">
+                    <i class="fa fa-angle-up" style="transform: translateY(120%);" aria-hidden="true"></i>
+                    <span class="sr-only">前往頂部</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+
+
+</body></html>

@@ -1,0 +1,5 @@
+div.push_context { height: 28px;}
+.push_context a { height: 24px;width: 24px;display:block;float:left;margin-right:5px;}
+.Plurk_link { background-image: url(images/plurk.jpg);}
+.Twitter_link { background-image: url(images/twitter.jpg);}
+.Facebook_link { background-image: url(images/facebook.jpg);}
